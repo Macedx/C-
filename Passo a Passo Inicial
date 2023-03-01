@@ -3,4 +3,7 @@ Escreva mkdir Pastaxxx - Criar pasta
 cd Pastaxxx - entrar na pasta/diretório
 code PastaPlay - Entra no Visual Code com a pasta/diretório
 
+
+dotnet new console -n myapp - Abre o VS e o pront
+
 Para rodar o programa, escreva "dotnet run".
