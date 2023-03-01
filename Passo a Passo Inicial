@@ -1,0 +1,6 @@
+Acesse Terminal
+Escreva mkdir Pastaxxx - Criar pasta
+cd Pastaxxx - entrar na pasta/diretório
+code PastaPlay - Entra no Visual Code com a pasta/diretório
+
+Para rodar o programa, escreva "dotnet run".
