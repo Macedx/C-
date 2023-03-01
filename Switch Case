@@ -1,0 +1,51 @@
+int mes= 12;
+switch (mes)
+{
+    case 1:
+    Console.WriteLine("Mes é janeiro!");
+    break;
+
+    case 2:
+    Console.WriteLine("mes é fevereiro");
+    break;
+
+    case 3:
+    Console.WriteLine("mes é Março");
+    break;
+
+    case 4:
+    Console.WriteLine("mes é Abril");
+    break;
+
+    case 5:
+    Console.WriteLine("mes é maio");
+    break;
+
+    case 6:
+    Console.WriteLine("mes é junho");
+    break;
+
+    case 7:
+    Console.WriteLine("mes é julho");
+    break;
+
+    case 8:
+    Console.WriteLine("mes é agosto");
+    break;
+
+    case 9:
+    Console.WriteLine("mes é setembro");
+    break;
+
+    case 10:
+    Console.WriteLine("mes é outubro");
+    break;
+
+    case 11:
+    Console.WriteLine("mes é novembro");
+    break;
+
+    case 12:
+    Console.WriteLine("mes é dezembro");
+    break;
+}
