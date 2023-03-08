@@ -6,4 +6,6 @@ code PastaPlay - Entra no Visual Code com a pasta/diretório
 
 dotnet new console -n myapp - Abre o VS e o pront
 
+Para rodar: clique em Terminal, new terminal
+
 Para rodar o programa, escreva "dotnet run".
