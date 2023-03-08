@@ -1,0 +1,70 @@
+//Lê o número que o usuário dá
+
+int num1 = 0; int num2 = 0;
+
+Console.WriteLine("Calculadora Console em C#\r");
+Console.WriteLine ("------------------\n");
+
+Console.WriteLine ("Digite um número, e pressione Enter");
+num1 = Convert.ToInt32 (Console.ReadLine());
+
+Console.WriteLine ("Digite outro número, e pressione Enter");
+num2 = Convert.ToInt32(Console.ReadLine());
+
+////////
+Calculadora Console em C#
+------------------
+
+Digite um número, e pressione Enter
+2
+Digite outro número, e pressione Enter
+6
+___________________________________________________________________________________________________________________________________________________________
+//Segunda Parte: Opção de conta
+
+Console.WriteLine ("Escolha uma opção da lista seguinte: ");
+Console.WriteLine ("\ta - Soma");
+Console.WriteLine ("\ts - Subtração");
+Console.WriteLine ("\tm - Multiplicação");
+Console.WriteLine ("\td - Divisão");
+Console.WriteLine ("Qual sua opção? ");
+
+///////
+Calculadora Console em C#
+------------------
+
+Digite um número, e pressione Enter
+2
+Digite outro número, e pressione Enter
+4
+Escolha uma opção da lista seguinte: 
+        a - Soma
+        s - SUbtração
+        m - Multiplicação
+        d - Divisão
+Qual sua opção? 
+
+___________________________________________________________________________________________________________________________________________________________
+Tercera Parte: switch case
+
+switch (Console.ReadLine())
+{
+    case "Soma":
+    Console.WriteLine ($"Seu resultado: {num1} + {num2} = " + (num1 + num2));
+    break;
+
+    case "Subtração":
+    Console.WriteLine ($"Seu resultado: {num1} - {num2} = "+ (num1 - num2));
+    break;
+
+    case "Multiplicação":
+    Console.WriteLine ($"Seu resultado: {num1}*{num2} = "+ (num1 * num2));
+    break;
+
+    case "Divisão":
+    Console.WriteLine ($"Seu resultado: {num1} / {num2} ="+ (num1/num2));
+    break;
+
+}
+
+///////
