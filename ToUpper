@@ -1,0 +1,8 @@
+var nomes = new List <string> {"Renato", "Ana", "Felipe", "Claudia"};
+
+foreach (var nome in nomes)
+{
+    Console.WriteLine ($"Olá {nome.ToUpper()}");
+    
+}
+//ToUpper deixa tudo em mai
