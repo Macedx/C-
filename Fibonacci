@@ -11,3 +11,27 @@ fibonacciNumeros.Add (previo+previo2);
 }
 
 while (fibonacciNumeros.Count <=21);
+
+_________________________________________________________________________________________________________________________________________________________
+dotnet run
+
+Item 1: 1
+Item 2: 1
+Item 3: 2
+Item 4: 3
+Item 5: 5
+Item 6: 8
+Item 7: 13
+Item 8: 21
+Item 9: 34
+Item 10: 55
+Item 11: 89
+Item 12: 144
+Item 13: 233
+Item 14: 377
+Item 15: 610
+Item 16: 987
+Item 17: 1597
+Item 18: 2584
+Item 19: 4181
+Item 20: 6765
