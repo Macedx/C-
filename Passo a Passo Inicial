@@ -9,3 +9,9 @@ dotnet new console -n myapp - Abre o VS e o pront
 Para rodar: clique em Terminal, new terminal
 
 Para rodar o programa, escreva "dotnet run".
+
+_____________________________________________________________________________________________________________________________________________-
+cd Nome da Pasta
+dotnet new console -n P05
+code P05
+
