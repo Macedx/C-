@@ -1,0 +1,40 @@
+var nomes = new List <string> {"Renato", "Ana", "Felipe", "Claudia"};
+
+foreach (var nome in nomes)
+{
+    Console.WriteLine ($"Olá {nome.ToUpper()}");
+}
+Console.WriteLine();
+nomes.Add("Maria");
+nomes.Add ("Bill");
+nomes.Remove("Ana");
+foreach (var nome in nomes)
+{
+    Console.WriteLine ($"Olá {nome.ToUpper()}!");
+
+Console.WriteLine ($"Meu nome é {nomes[0]}");
+Console.WriteLine ($"Adicionei {nomes[3]} e {nomes.Count} pessoas");
+}
+
+__________________________________________________________________________________________________________________________________________________________
+dotnet run
+Olá RENATO
+Olá ANA
+Olá FELIPE
+Olá CLAUDIA
+
+Olá RENATO!
+Meu nome é Renato
+Adicionei Maria e 5 pessoas
+Olá FELIPE!
+Meu nome é Renato
+Adicionei Maria e 5 pessoas
+Olá CLAUDIA!
+Meu nome é Renato
+Adicionei Maria e 5 pessoas
+Olá MARIA!
+Meu nome é Renato
+Adicionei Maria e 5 pessoas
+Olá BILL!
+Meu nome é Renato
+Adicionei Maria e 5 pessoas
