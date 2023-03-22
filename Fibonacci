@@ -1,0 +1,13 @@
+var fibonacciNumeros = new List <int> {1, 1};
+
+do{
+
+    Console.WriteLine ($"Item {fibonacciNumeros.Count - 1}: {fibonacciNumeros [fibonacciNumeros.Count - 2]}");
+
+var previo = fibonacciNumeros [fibonacciNumeros.Count -1];
+var previo2 = fibonacciNumeros [fibonacciNumeros.Count -2];
+
+fibonacciNumeros.Add (previo+previo2);
+}
+
+while (fibonacciNumeros.Count <=21);
