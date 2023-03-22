@@ -1,0 +1,26 @@
+var nomes = new List <string> {"Renato", "Ana", "Felipe", "Claudia"};
+
+foreach (var nome in nomes)
+{
+    Console.WriteLine ($"Olá {nome.ToUpper()}");
+}
+Console.WriteLine();
+nomes.Add("Maria");
+nomes.Add ("Bill");
+nomes.Remove("Ana");
+foreach (var nome in nomes)
+{
+    Console.WriteLine ($"Olá {nome.ToUpper()}!");
+}
+__________________________________________________________________________________________________________________________________________________________
+dotnet run
+Olá RENATO
+Olá ANA
+Olá FELIPE
+Olá CLAUDIA
+
+Olá RENATO!
+Olá FELIPE!
+Olá CLAUDIA!
+Olá MARIA!
+Olá BILL!
